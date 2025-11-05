@@ -6,9 +6,9 @@ This repository contains a comprehensive analysis of portfolio strategies that c
 
 ## 🧱 1. Dataset Information  
 **File:** `df_all_for_kaggle.csv`  
-**Source:** [kaggle]([https://www.kaggle.com/datasets/miadul/lifestyle-and-health-risk-prediction](https://www.kaggle.com/datasets/pablomartis1/historical-data-btc-vix-gold-usd))  
+**Source:** [kaggle](([https://www.kaggle.com/datasets/miadul/lifestyle-and-health-risk-prediction](https://www.kaggle.com/datasets/pablomartis1/historical-data-btc-vix-gold-usd))  
 **Time Periode:** January 2015 - December 2024  
-**Fields:** `date`, `close_usd`, `gold_close`, `vix_close`, `usd_close`, `btc_weekend_ret`, `ret_btc_next_bday`, `y_up_next,mom_14c`.
+**Column:** `date`, `close_usd`, `gold_close`, `vix_close`, `usd_close`, `btc_weekend_ret`, `ret_btc_next_bday`, `y_up_next,mom_14c`.
 
 ## 🎯 Key Takeaways
 
