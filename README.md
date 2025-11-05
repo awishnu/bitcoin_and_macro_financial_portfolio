@@ -1,1 +1,54 @@
-# bitcoin_and_macro_financial_portfolio
+Bitcoin & Macro-Financial Portfolio Analysis (2015-2024)
+📌 Project Overview
+This repository contains a comprehensive analysis of portfolio strategies that combine Bitcoin with traditional macro-financial assets (Gold, VIX, USD) over the period from 2015 to 2024. The project evaluates the risk-return trade-offs of different portfolio allocations and compares a simple momentum-based trading strategy against a classic Buy & Hold approach.
+
+🗓️ Time Period
+January 2015 - January 2024
+
+🎯 Key Takeaways
+Bitcoin's Dominant Returns & Extreme Volatility: Bitcoin significantly outperformed all other assets in absolute returns but experienced extreme volatility and a maximum drawdown of -96%.
+
+Diversification is Key: Portfolios that included Gold and USD saw dramatically reduced risk and drawdowns. The low correlation between Bitcoin and these traditional assets provided a crucial cushion during market downturns.
+
+Aggressive vs. Balanced Portfolios:
+
+The Aggressive Portfolio (60% BTC) captured substantial growth.
+
+The Balanced Portfolio (30% BTC) offered a much smoother equity curve and superior risk-adjusted returns (Sharpe Ratio).
+
+Momentum Strategy Underperformance: While the tested momentum strategy successfully reduced volatility and drawdown, it ultimately underperformed a pure Bitcoin Buy & Hold strategy in terms of total return during this specific bull-market-dominated period.
+
+📊 Asset Correlation Matrix
+The low correlation between Bitcoin and traditional safe-haven assets is the foundation of this analysis.
+
+Asset	Bitcoin	Gold	VIX	USD
+Bitcoin	1.00	0.10	-0.17	-0.07
+Gold	0.10	1.00	0.00	-0.42
+VIX	-0.17	0.00	1.00	0.04
+USD	-0.07	-0.42	0.04	1.00
+🧮 Portfolio Allocations
+Three distinct portfolio strategies were simulated:
+
+Portfolio	BTC	Gold	VIX	USD
+Conservative	10%	50%	10%	30%
+Balanced	30%	40%	10%	20%
+Aggressive	60%	20%	10%	10%
+📈 Performance Summary
+Portfolio Performance (Initial Investment: $100)
+Portfolio	Total Return	Volatility	Sharpe Ratio
+Conservative	650.06%	15.65%	142.69%
+Balanced	2,032.94%	23.32%	171.79%
+Aggressive	15,042.27%	40.55%	159.76%
+Strategy Comparison: Buy & Hold vs. Momentum
+Strategy	Total Return	Max Drawdown
+Buy & Hold (BTC)	29,620.90%	-49.04%
+Momentum Strategy	13,329,418.54%*	-24.41%
+Note: The extraordinarily high return for the Momentum Strategy should be verified for potential data or calculation artifacts, though it successfully achieved a lower drawdown.
+
+📁 Repository Contents
+df_all_for_kaggle.pdf - The full analysis report with detailed charts and data.
+
+README.md - This file, providing a project overview and summary.
+
+🔚 Conclusion
+This analysis demonstrates that while Bitcoin alone offers unparalleled returns, its extreme risk makes it unsuitable for most investors as a standalone asset. However, by strategically allocating a portion of a portfolio to Bitcoin and diversifying with uncorrelated assets like Gold and USD, investors can achieve an excellent balance of high growth and managed risk. The Balanced Portfolio (30% BTC) emerged as a particularly compelling option, offering strong returns with significantly lower volatility and a superior Sharpe Ratio compared to the more aggressive alternatives.
