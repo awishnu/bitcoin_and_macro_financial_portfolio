@@ -9,7 +9,7 @@ This repository contains a comprehensive analysis of portfolio strategies that c
 
 ## 🎯 Key Takeaways
 
-* **Bitcoin's Dominant Returns & Extreme Volatility:** Bitcoin significantly outperformed all other assets in absolute returns but experienced extreme volatility and a maximum drawdown of **-96%**.
+* **Bitcoin's Dominant Returns & Extreme Volatility:** Bitcoin significantly outperformed all other assets in absolute returns but experienced extreme volatility.
 * **Diversification is Key:** Portfolios that included Gold and USD saw dramatically reduced risk and drawdowns. The low correlation between Bitcoin and these traditional assets provided a crucial cushion during market downturns.
 * **Aggressive vs. Balanced Portfolios:**
   * The **Aggressive Portfolio (60% BTC)** captured substantial growth.
@@ -39,6 +39,9 @@ Three distinct portfolio strategies were simulated:
 | **Conservative** | 10% | 50% | 10% | 30% |
 | **Balanced** | 30% | 40% | 10% | 20% |
 | **Aggressive** | 60% | 20% | 10% | 10% |
+
+We allso simulate a strategy that buys only Bitcoin when momentum is strongly positive (base on "mom_14c" column) and sells when it's strongly
+<img width="1440" height="726" alt="image" src="https://github.com/user-attachments/assets/e82f2c00-3e6a-4776-a761-3b88e2771ebb" />
 
 ## 📈 Performance Summary
 
