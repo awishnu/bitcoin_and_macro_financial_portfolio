@@ -57,8 +57,8 @@ We allso simulate a strategy that buys only Bitcoin when momentum is strongly po
 
 | Strategy | Total Return | Max Drawdown |
 |:---------|-------------:|-------------:|
-| **Buy & Hold (BTC)** | 29,620.90% | -49.04% |
-| **Momentum Strategy** | 13,329,418.54%* | -24.41% |
+| **Buy & Hold (BTC)** | 29,620.90% | -83.04% |
+| **Momentum Strategy** | 13,329,419.54% | -24.41% |
 
 > *Note: The extraordinarily high return for the Momentum Strategy should be verified for potential data or calculation artifacts, though it successfully achieved a lower drawdown.*
 
