@@ -5,7 +5,7 @@
 This repository contains a comprehensive analysis of portfolio strategies that combine Bitcoin with traditional macro-financial assets (Gold, VIX, USD) over the period from 2015 to 2024. The project evaluates the risk-return trade-offs of different portfolio allocations and compares a simple momentum-based trading strategy against a classic Buy & Hold approach.
 
 ## 🗓️ Time Period
-**January 2015 - January 2024**
+**January 2015 - December 2024**
 
 ## 🎯 Key Takeaways
 
@@ -26,6 +26,9 @@ The low correlation between Bitcoin and traditional safe-haven assets is the fou
 | **Gold** | 0.10 | 1.00 | 0.00 | -0.42 |
 | **VIX** | -0.17 | 0.00 | 1.00 | 0.04 |
 | **USD** | -0.07 | -0.42 | 0.04 | 1.00 |
+
+## 📈 Performance Comparison
+<img width="1448" height="733" alt="image" src="https://github.com/user-attachments/assets/8ec46b72-3ade-4e3f-85fb-2c7b948ea9d7" />
 
 ## 🧮 Portfolio Allocations
 
