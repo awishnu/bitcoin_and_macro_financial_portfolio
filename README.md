@@ -61,17 +61,13 @@ We allso simulate a strategy that buys only Bitcoin when momentum is strongly po
 
 ## 📎 Project Files  
 ```
-📂 health-risk-sql-analysis/
+📂 bitcoin_and_macro_financial_portfolio/
 ├── data/
-│   ├── Lifestyle_and_Health_Risk_Prediction_Synthetic_Dataset.csv
+│   ├── df_all_for_kaggle.csv
 ├── results/
-│   ├── 03_import_and_test.csv
-├── sql/
-│   ├── 01_create_database.csv
-│   ├── 02_create_the_table_scheme.csv
-│   ├── 03_import_and_test_csv.csv
-│   ├── 04_cleean_and_inspect_data.csv
-│   ├── 05_analysis.csv
+│   ├── df_all_for_kaggle.pdf
+├── xlsx/
+│   ├── df_all_for_kaggle.xlsx
 └── README.md
 └── setup_instruction.md
 ```
