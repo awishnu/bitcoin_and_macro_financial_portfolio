@@ -22,13 +22,7 @@ This repository contains a comprehensive analysis of portfolio strategies that c
 ## 📊 Asset Correlation Matrix
 
 The low correlation between Bitcoin and traditional safe-haven assets is the foundation of this analysis.
-
-| Asset | Bitcoin | Gold | VIX | USD |
-|:------|--------:|-----:|----:|----:|
-| **Bitcoin** | 1.00 | 0.10 | -0.17 | -0.07 |
-| **Gold** | 0.10 | 1.00 | 0.00 | -0.42 |
-| **VIX** | -0.17 | 0.00 | 1.00 | 0.04 |
-| **USD** | -0.07 | -0.42 | 0.04 | 1.00 |
+<img width="537" height="204" alt="image" src="https://github.com/user-attachments/assets/bd8a55aa-5729-4fbc-a638-199fc07ae13c" />
 
 ## 📈 Performance Comparison
 <img width="1448" height="733" alt="image" src="https://github.com/user-attachments/assets/8ec46b72-3ade-4e3f-85fb-2c7b948ea9d7" />
