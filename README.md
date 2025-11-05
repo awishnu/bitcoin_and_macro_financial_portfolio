@@ -1,11 +1,14 @@
 # Bitcoin & Macro-Financial Portfolio Analysis (2015-2024)
 
-## 📌 Project Overview
+## 📘 Overview
 
 This repository contains a comprehensive analysis of portfolio strategies that combine Bitcoin with traditional macro-financial assets (Gold, VIX, USD) over the period from 2015 to 2024. The project evaluates the risk-return trade-offs of different portfolio allocations and compares a simple momentum-based trading strategy against a classic Buy & Hold approach.
 
-## 🗓️ Time Period
-**January 2015 - December 2024**
+## 🧱 1. Dataset Information  
+**File:** `df_all_for_kaggle.csv`  
+**Source:** [kaggle]([https://www.kaggle.com/datasets/miadul/lifestyle-and-health-risk-prediction](https://www.kaggle.com/datasets/pablomartis1/historical-data-btc-vix-gold-usd))  
+**Time Periode:** January 2015 - December 2024  
+**Fields:** `date`, `close_usd`, `gold_close`, `vix_close`, `usd_close`, `btc_weekend_ret`, `ret_btc_next_bday`, `y_up_next,mom_14c`.
 
 ## 🎯 Key Takeaways
 
@@ -50,26 +53,35 @@ We allso simulate a strategy that buys only Bitcoin when momentum is strongly po
 | Portfolio | Total Return | Volatility | Sharpe Ratio |
 |----------:|-------------:|-----------:|-------------:|
 | **Conservative** | 650.06% | 15.65% | 142.69% |
-| **Balanced** | 2,032.94% | 23.32% | 171.79% |
-| **Aggressive** | 15,042.27% | 40.55% | 159.76% |
+| **Balanced** | 2,032.94% | 23.33% | 171.79% |
+| **Aggressive** | 15,042.27% | 40.83% | 159.76% |
 
 ### Strategy Comparison: Buy & Hold vs. Momentum
 
 | Strategy | Total Return | Max Drawdown |
 |:---------|-------------:|-------------:|
-| **Buy & Hold (BTC)** | 29,620.90% | -83.04% |
+| **Buy & Hold (BTC)** | 29,620.95% | -83.04% |
 | **Momentum Strategy** | 13,329,419.54% | -24.41% |
 
 > *Note: The extraordinarily high return for the Momentum Strategy should be verified for potential data or calculation artifacts, though it successfully achieved a lower drawdown.*
 
-## 📁 Repository Contents
-
-* `df_all_for_kaggle.pdf` - The full analysis report with detailed charts and data.
-* `README.md` - This file, providing a project overview and summary.
+## 📎 Project Files  
+```
+📂 health-risk-sql-analysis/
+├── data/
+│   ├── Lifestyle_and_Health_Risk_Prediction_Synthetic_Dataset.csv
+├── results/
+│   ├── 03_import_and_test.csv
+├── sql/
+│   ├── 01_create_database.csv
+│   ├── 02_create_the_table_scheme.csv
+│   ├── 03_import_and_test_csv.csv
+│   ├── 04_cleean_and_inspect_data.csv
+│   ├── 05_analysis.csv
+└── README.md
+└── setup_instruction.md
+```
 
 ## 🔚 Conclusion
 
 This analysis demonstrates that while Bitcoin alone offers unparalleled returns, its extreme risk makes it unsuitable for most investors as a standalone asset. However, by strategically allocating a portion of a portfolio to Bitcoin and diversifying with uncorrelated assets like Gold and USD, investors can achieve an excellent balance of high growth and managed risk. The **Balanced Portfolio (30% BTC)** emerged as a particularly compelling option, offering strong returns with significantly lower volatility and a superior Sharpe Ratio compared to the more aggressive alternatives.
-
----
-**Disclaimer:** This analysis is for educational and research purposes only. Past performance is not indicative of future results. Cryptocurrency investments carry substantial risk and volatility.
