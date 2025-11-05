@@ -21,7 +21,7 @@ This repository contains a comprehensive analysis of portfolio strategies that c
 The low correlation between Bitcoin and traditional safe-haven assets is the foundation of this analysis.
 
 | Asset | Bitcoin | Gold | VIX | USD |
-|-------|---------|------|-----|-----|
+|:------|--------:|-----:|----:|----:|
 | **Bitcoin** | 1.00 | 0.10 | -0.17 | -0.07 |
 | **Gold** | 0.10 | 1.00 | 0.00 | -0.42 |
 | **VIX** | -0.17 | 0.00 | 1.00 | 0.04 |
@@ -35,7 +35,7 @@ The low correlation between Bitcoin and traditional safe-haven assets is the fou
 Three distinct portfolio strategies were simulated:
 
 | Portfolio | BTC | Gold | VIX | USD |
-|-----------|-----|------|-----|-----|
+|:----------|----:|-----:|----:|----:|
 | **Conservative** | 10% | 50% | 10% | 30% |
 | **Balanced** | 30% | 40% | 10% | 20% |
 | **Aggressive** | 60% | 20% | 10% | 10% |
@@ -48,7 +48,7 @@ We allso simulate a strategy that buys only Bitcoin when momentum is strongly po
 ### Portfolio Performance (Initial Investment: $100)
 
 | Portfolio | Total Return | Volatility | Sharpe Ratio |
-|-----------|--------------|------------|--------------|
+|----------:|-------------:|-----------:|-------------:|
 | **Conservative** | 650.06% | 15.65% | 142.69% |
 | **Balanced** | 2,032.94% | 23.32% | 171.79% |
 | **Aggressive** | 15,042.27% | 40.55% | 159.76% |
@@ -56,7 +56,7 @@ We allso simulate a strategy that buys only Bitcoin when momentum is strongly po
 ### Strategy Comparison: Buy & Hold vs. Momentum
 
 | Strategy | Total Return | Max Drawdown |
-|----------|--------------|--------------|
+|:---------|-------------:|-------------:|
 | **Buy & Hold (BTC)** | 29,620.90% | -49.04% |
 | **Momentum Strategy** | 13,329,418.54%* | -24.41% |
 
