@@ -81,6 +81,7 @@ This analysis demonstrates that while Bitcoin alone offers unparalleled returns,
 ## 🌟 Author  
 **Ahmad Wishnu**   
 📍 Based in Indonesia  
-🔗 [GitHub Portfolio](https://github.com/awishnu/health_risk_sql_project) | [LinkedIn](https://linkedin.com/in/ahmad-wishnu/)
+🔗 [GitHub Portfolio](https://github.com/awishnu) | [LinkedIn](https://linkedin.com/in/ahmad-wishnu/)
 
 ---
+
