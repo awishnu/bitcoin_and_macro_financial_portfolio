@@ -75,3 +75,12 @@ We allso simulate a strategy that buys only Bitcoin when momentum is strongly po
 ## 🔚 Conclusion
 
 This analysis demonstrates that while Bitcoin alone offers unparalleled returns, its extreme risk makes it unsuitable for most investors as a standalone asset. However, by strategically allocating a portion of a portfolio to Bitcoin and diversifying with uncorrelated assets like Gold and USD, investors can achieve an excellent balance of high growth and managed risk. The **Balanced Portfolio (30% BTC)** emerged as a particularly compelling option, offering strong returns with significantly lower volatility and a superior Sharpe Ratio compared to the more aggressive alternatives.
+
+---
+
+## 🌟 Author  
+**Ahmad Wishnu**   
+📍 Based in Indonesia  
+🔗 [GitHub Portfolio](https://github.com/awishnu/health_risk_sql_project) | [LinkedIn](https://linkedin.com/in/ahmad-wishnu/)
+
+---
