@@ -462,5 +462,3 @@ You now have a single, powerful sheet that summarizes the entire project. It tel
 3. **The Insight:** The correlation matrix, allocations, and advanced analysis show the "why" and "how."
 
 This dashboard effectively demonstrates that while Bitcoin is a uniquely powerful asset, its integration into a diversified portfolio with traditional macro assets can help manage its legendary volatility, and that simple quantitative signals can be explored to navigate its price movements.
-
-**Congratulations on completing this comprehensive financial analysis project!** You have successfully transformed raw data into actionable investment insights.
